@@ -164,35 +164,46 @@ Business Intelligence: reúne processos e tecnologias para trabalhar com dados o
 
 Power BI: é uma ferramenta que pode ser utilizada na prática para preparar, modelar, analisar e visualizar os dados.
 
-🧠 Mapa de Conhecimentos
+## 🧠 Mapa de Conhecimentos
 
-ANÁLISE DE DADOS E BUSINESS INTELLIGENCE
-│
-├── 1. FUNDAMENTOS
-│   ├── Dados
-│   ├── Processo de análise
-│   ├── Perguntas de negócio
-│   └── Insights
-│
-├── 2. BUSINESS INTELLIGENCE
-│   ├── Coleta e gerenciamento de dados
-│   ├── Análise de informações
-│   ├── Apoio às decisões
-│   └── Dashboards e relatórios
-│
-├── 3. POWER BI
-│   ├── Conexão com dados
-│   ├── Power Query
-│   ├── Modelagem
-│   ├── DAX
-│   ├── Visualizações
-│   └── Relatórios e dashboards
-│
-└── 4. APROFUNDAMENTO
-    ├── Relatórios Paginados
-    ├── Copilot
-    ├── Microsoft Fabric
-    └── Business Analytics
+### 1. Fundamentos de Dados e Análise
+- Dados
+- Processo de análise
+- Perguntas de negócio
+- Insights
+
+⬇️
+
+### 2. Business Intelligence (BI)
+- Coleta e gerenciamento de dados
+- Análise de informações
+- Apoio à tomada de decisões
+- Dashboards e relatórios
+
+⬇️
+
+### 3. Power BI
+- Conexão com fontes de dados
+- Power Query
+- Modelagem de dados
+- DAX
+- Visualizações
+- Relatórios e dashboards
+
+⬇️
+
+### 4. Conceitos para Aprofundamento
+- Relatórios Paginados
+- Copilot no Power BI
+- Microsoft Fabric
+- Business Analytics
+- Análises preditivas e prescritivas
+
+### 🔗 Relação entre os conceitos
+
+**Dados → Análise de Dados → Business Intelligence → Power BI → Informações e Insights**
+
+Os dados são a base do processo. A Análise de Dados permite examiná-los e transformá-los em informações. O Business Intelligence reúne processos e tecnologias para utilizar essas informações no contexto do negócio. O Power BI é uma das ferramentas que pode ser utilizada para preparar, modelar, analisar e visualizar os dados.
 
 📖 Glossário
 
