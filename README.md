@@ -1,300 +1,394 @@
-📚 Miniguia de Análise de Dados e Business Intelligence
+# 📚 Miniguia de Análise de Dados e Business Intelligence
 
-🎯 Contexto e objetivos
+## 🎯 Contexto e Objetivos
 
-Este projeto foi desenvolvido como parte de um desafio da DIO, com o objetivo de utilizar a Inteligência Artificial como ferramenta de aprendizagem ativa.
+Este projeto foi desenvolvido como parte de um desafio da **DIO (Digital Innovation One)**, com o objetivo de explorar o uso do **NotebookLM** como ferramenta de apoio aos estudos.
 
-O tema escolhido foi Análise de Dados e Business Intelligence, área pela qual tenho interesse profissional.
+O tema escolhido foi **Análise de Dados e Business Intelligence (BI)**, por estar relacionado à minha área de interesse profissional e aos conhecimentos que estou desenvolvendo durante minha graduação em **Análise e Desenvolvimento de Sistemas**.
 
-O objetivo foi utilizar o NotebookLM para organizar fontes confiáveis, formular perguntas estratégicas, testar diferentes prompts e consolidar os conhecimentos obtidos em um miniguia de estudos.
+### Objetivos do projeto
 
-📖 Fontes utilizadas
+- Compreender os conceitos fundamentais de Análise de Dados e Business Intelligence;
+- Entender a relação entre Dados, Análise de Dados, BI e Power BI;
+- Utilizar o NotebookLM para organizar e estudar diferentes fontes;
+- Aplicar técnicas de engenharia de prompts;
+- Registrar as etapas de interação com a ferramenta;
+- Criar um miniguia de estudos que possa ser utilizado posteriormente como material de consulta.
 
-Microsoft Learn — O que é o Power BI
+---
 
-Microsoft Learn — Introdução à análise de dados
+## 📖 Fontes Utilizadas
 
-Microsoft Learn — Preparar e visualizar dados com Power BI
+Foram selecionadas fontes abertas e confiáveis para servir como base de conhecimento no NotebookLM:
 
-IBM — Business Intelligence
+1. **Microsoft Learn — O que é o Power BI**
+2. **Microsoft Learn — Introdução à análise de dados da Microsoft**
+3. **Microsoft Learn — Preparar e visualizar dados com Microsoft Power BI**
+4. **IBM — What is Business Intelligence?**
 
-As fontes foram selecionadas para construir uma base introdutória sobre Análise de Dados, Business Intelligence e Power BI.
+As fontes foram escolhidas por apresentarem conceitos relacionados à Análise de Dados, Business Intelligence e Power BI.
 
-🤖 Engenharia de Prompts
+---
 
-Durante o projeto foram testados diferentes prompts com objetivos específicos:
+# 🤖 Engenharia de Prompts
 
-Explorar os conceitos iniciais;
+A utilização de prompts estruturados foi importante para direcionar as respostas do NotebookLM e obter informações mais organizadas e adequadas ao objetivo do projeto.
 
-Comparar conceitos;
+## Prompt inicial
 
-Criar perguntas de revisão;
+> Explique o que é Power BI.
 
-Organizar os conhecimentos;
+### Problemas identificados
 
-Consolidar o conteúdo em um miniguia.
+O prompt inicial apresentou algumas limitações:
 
-Prompt inicial
+- Não definia o nível de conhecimento do usuário;
+- Não especificava quais aspectos deveriam ser abordados;
+- A resposta poderia ficar muito ampla;
+- Não solicitava exemplos práticos;
+- Não estabelecia uma estrutura para apresentação das informações.
 
-"Explique o que é Power BI."
+A partir dessas limitações, foi elaborado um prompt mais específico.
 
-Problema encontrado
+---
 
-A resposta ficou muito ampla e sem direcionamento específico para uma estudante iniciante. Também não havia uma estrutura definida nem exemplos suficientes para facilitar o estudo.
+## Prompt aprimorado
 
-Prompt aprimorado
+> Com base exclusivamente nas fontes deste notebook, explique o que é Power BI para uma estudante iniciante em Análise de Dados. Organize a resposta em conceito, finalidade, principais recursos e exemplo de utilização.
 
-"Com base exclusivamente nas fontes deste notebook, explique o que é Power BI para uma estudante iniciante em Análise de Dados. Organize a resposta em conceito, finalidade, principais recursos e exemplo de utilização."
+### Resultado
 
-Resultado e aprendizado
+O prompt aprimorado direcionou melhor a resposta, fazendo com que o conteúdo fosse apresentado de forma mais organizada e adequada para uma pessoa que está começando a estudar a área de Dados.
 
-O prompt aprimorado produziu uma resposta mais organizada e adequada ao objetivo do estudo. Percebi que definir o público, o objetivo, as fontes e o formato da resposta ajuda a obter resultados mais úteis para a aprendizagem.
+A resposta passou a abordar:
 
-🩹 Cicatrizes do processo
+- Conceito do Power BI;
+- Finalidade da ferramenta;
+- Principais recursos;
+- Exemplo de utilização.
 
-Durante a construção do projeto, percebi que prompts muito genéricos produziam respostas amplas e pouco direcionadas.
+### Aprendizado
 
-Primeiro teste:
+A comparação entre os prompts mostrou que perguntas mais específicas ajudam a direcionar a ferramenta para o objetivo desejado.
 
-"Explique o que é Power BI."
+Definir **contexto, público, estrutura e limitações da resposta** contribui para obter resultados mais úteis.
 
-Problemas identificados:
+---
 
-Resposta muito ampla;
+# 🔎 Cicatrizes do Processo
 
-Ausência de uma estrutura definida;
+Durante o desenvolvimento do projeto, algumas dificuldades e ajustes foram identificados.
 
-Falta de direcionamento para o nível de conhecimento;
+## 1. Resposta inicial muito ampla
 
-Necessidade de exemplos mais práticos.
+O primeiro prompt era bastante genérico e poderia gerar uma explicação extensa sem necessariamente seguir a estrutura necessária para o estudo.
 
-Segundo teste:
+### Ajuste realizado
 
-"Com base exclusivamente nas fontes deste notebook, explique o que é Power BI para uma estudante iniciante em Análise de Dados. Organize a resposta em conceito, finalidade, principais recursos e exemplo de utilização."
+Foi definido o perfil do público:
 
-Resultado: a resposta ficou mais organizada e adequada ao objetivo do estudo.
+> "para uma estudante iniciante em Análise de Dados"
 
-Aprendizado: elaborar prompts com contexto, público, fontes, objetivo e formato definidos contribui para obter respostas mais relevantes e facilita a utilização da IA como ferramenta de aprendizagem.
+Também foram definidos os tópicos que deveriam aparecer na resposta.
 
-📚 Miniguia de Estudos
+---
 
-1. Análise de Dados
+## 2. Necessidade de exemplos práticos
 
-A Análise de Dados é o processo de examinar, organizar e transformar dados em informações e insights que possam auxiliar pessoas e organizações em suas decisões.
+Apenas conhecer a definição dos conceitos não era suficiente para facilitar a compreensão.
 
-Para uma estudante iniciante, é importante compreender que o processo analítico começa com dados e busca transformá-los em respostas úteis para questões de negócio.
+### Ajuste realizado
 
-2. Business Intelligence
+Os prompts passaram a solicitar exemplos de utilização, relacionando os conceitos com situações práticas de análise de dados.
 
-Business Intelligence (BI) é um conjunto de processos e tecnologias utilizados para coletar, gerenciar e analisar dados organizacionais, fornecendo informações que apoiam estratégias e operações de uma empresa.
+---
 
-O BI está relacionado à organização e utilização dos dados para compreender o negócio e apoiar decisões baseadas em informações.
+## 3. Necessidade de organizar os conceitos
 
-3. Power BI
+Durante o estudo, foi necessário entender como os conceitos de Análise de Dados, Business Intelligence e Power BI se relacionam.
 
-O Power BI é uma solução da Microsoft utilizada para conectar, preparar, modelar, visualizar e analisar dados, possibilitando a criação de relatórios e painéis interativos.
+### Ajuste realizado
 
-Entre os principais componentes do ecossistema estão:
+Foi criado um mapa de conhecimentos para organizar os conteúdos de forma progressiva.
 
-Power BI Desktop: utilizado principalmente para conexão, preparação, modelagem e criação de relatórios;
+---
 
-Serviço do Power BI: utilizado para publicação, compartilhamento e colaboração em nuvem;
+## 4. Controle das fontes
 
-Power BI Mobile: permite acessar e interagir com relatórios e painéis em dispositivos móveis.
+Como o objetivo era estudar utilizando as fontes selecionadas, os prompts foram formulados para limitar as respostas ao conteúdo disponível no NotebookLM.
 
-4. Principais recursos
+Exemplo:
 
-Power BI Desktop
+> "Com base exclusivamente nas fontes deste notebook..."
 
-Conexão com diferentes fontes de dados;
+Essa instrução ajuda a manter o conteúdo relacionado às fontes utilizadas no projeto.
 
-Tratamento e transformação utilizando o Power Query;
+---
 
-Modelagem de dados e criação de relacionamentos;
+# 📚 Miniguia de Estudos
 
-Criação de cálculos utilizando DAX;
+## 1. Análise de Dados
 
-Criação de relatórios e visualizações interativas.
+A **Análise de Dados** envolve o trabalho com dados para transformá-los em informações que possam gerar conhecimento e apoiar a compreensão de situações e problemas.
 
-Serviço do Power BI
+No contexto profissional, o analista de dados trabalha com informações para identificar padrões, interpretar resultados e gerar insights que possam auxiliar na tomada de decisões.
 
-Compartilhamento de relatórios;
+### Principais pontos
 
-Colaboração em equipe;
+- Trabalhar com dados;
+- Preparar e organizar informações;
+- Analisar dados;
+- Identificar informações relevantes;
+- Gerar insights;
+- Apoiar decisões.
 
-Organização por workspaces;
+---
 
-Publicação e distribuição de conteúdos;
+# 2. Business Intelligence (BI)
 
-Atualização dos dados e recursos de segurança.
+**Business Intelligence (BI)** está relacionado ao uso de processos e tecnologias para coletar, gerenciar e analisar dados de uma organização, transformando essas informações em conhecimento útil para apoiar estratégias e operações.
 
-Power BI Mobile
+O BI permite utilizar os dados disponíveis para compreender melhor o negócio e apoiar processos de tomada de decisão.
 
-Aplicativos para smartphones e tablets que permitem consultar e interagir com relatórios e painéis.
+### Principais pontos
 
-Recursos para aprofundamento
+- Coleta de dados;
+- Gerenciamento de informações;
+- Análise de dados;
+- Geração de insights;
+- Apoio à tomada de decisões;
+- Utilização de relatórios e visualizações.
 
-Alguns recursos aparecem nas fontes como temas mais avançados, como:
+---
 
-Relatórios paginados;
+# 3. Power BI
 
-Power BI Report Builder;
+O **Power BI** é uma plataforma de análise de negócios da Microsoft que permite conectar, preparar, modelar, visualizar e analisar dados.
 
-Servidor de Relatórios do Power BI;
+A ferramenta pode ser utilizada para transformar dados em relatórios e visualizações interativas, facilitando a análise das informações.
 
-Copilot no Power BI;
+### Principais etapas
 
-Microsoft Fabric;
+1. Conectar aos dados;
+2. Preparar e transformar os dados;
+3. Modelar os dados;
+4. Criar visualizações;
+5. Criar relatórios e dashboards;
+6. Explorar e analisar as informações;
+7. Compartilhar os resultados.
 
-Business Analytics e análises preditivas/prescritivas.
+---
 
-Esses temas foram identificados durante a pesquisa, mas ficam como possibilidades de aprofundamento após a compreensão dos fundamentos.
+# 4. Principais Recursos do Power BI
 
-5. Como os conceitos se relacionam
+Entre os recursos relacionados ao Power BI estão:
 
-Uma forma simples de compreender a relação entre os conceitos é:
+### Conexão com dados
 
-Dados → Análise → Informação/Insights → Decisão
+Permite trabalhar com diferentes fontes de dados para realizar análises.
 
-Dados: representam a matéria-prima utilizada na análise.
+### Preparação e transformação
 
-Análise de Dados: busca examinar e transformar os dados para responder perguntas.
+Os dados podem ser preparados, transformados e organizados antes da análise.
 
-Business Intelligence: reúne processos e tecnologias para trabalhar com dados organizacionais e apoiar o negócio.
+### Modelagem
 
-Power BI: é uma ferramenta que pode ser utilizada na prática para preparar, modelar, analisar e visualizar os dados.
+Permite estruturar os dados para utilização nos relatórios e análises.
 
-## 🧠 Mapa de Conhecimentos
+### Visualizações
 
-### 1. Fundamentos de Dados e Análise
+Possibilita representar os dados por meio de diferentes tipos de gráficos e elementos visuais.
+
+### Relatórios e dashboards
+
+Permite criar relatórios e painéis interativos para apresentar informações.
+
+### Análise e exploração
+
+Os usuários podem explorar os dados e identificar informações relevantes.
+
+### Compartilhamento
+
+Os resultados podem ser compartilhados e utilizados de forma colaborativa.
+
+---
+
+# 5. Relação entre os Conceitos
+
+Os conceitos estudados estão relacionados dentro de um mesmo processo de utilização dos dados.
+
+Uma representação simplificada é:
+
+**Dados → Análise de Dados → Business Intelligence → Power BI → Informações e Insights**
+
+Os **dados** são a base do processo.
+
+A **Análise de Dados** permite examinar e interpretar esses dados.
+
+O **Business Intelligence** reúne processos e tecnologias utilizados para transformar dados em informações úteis para o contexto do negócio.
+
+O **Power BI** é uma das ferramentas que pode ser utilizada para preparar, modelar, analisar e visualizar dados.
+
+---
+
+# 🧠 Mapa de Conhecimentos
+
+## 1. Fundamentos de Dados e Análise
+
 - Dados
 - Processo de análise
 - Perguntas de negócio
+- Informações
 - Insights
 
-⬇️
+↓
 
-### 2. Business Intelligence (BI)
-- Coleta e gerenciamento de dados
-- Análise de informações
+## 2. Business Intelligence
+
+- Coleta de dados
+- Gerenciamento de informações
+- Análise de dados
 - Apoio à tomada de decisões
-- Dashboards e relatórios
+- Relatórios
+- Dashboards
 
-⬇️
+↓
 
-### 3. Power BI
+## 3. Power BI
+
 - Conexão com fontes de dados
+- Preparação e transformação
 - Power Query
 - Modelagem de dados
 - DAX
 - Visualizações
-- Relatórios e dashboards
+- Relatórios
+- Dashboards
 
-⬇️
+↓
 
-### 4. Conceitos para Aprofundamento
+## 4. Conceitos para Aprofundamento
+
 - Relatórios Paginados
 - Copilot no Power BI
 - Microsoft Fabric
 - Business Analytics
-- Análises preditivas e prescritivas
+- Análises preditivas
+- Análises prescritivas
 
-### 🔗 Relação entre os conceitos
+---
 
-**Dados → Análise de Dados → Business Intelligence → Power BI → Informações e Insights**
+# 📖 Glossário
 
-Os dados são a base do processo. A Análise de Dados permite examiná-los e transformá-los em informações. O Business Intelligence reúne processos e tecnologias para utilizar essas informações no contexto do negócio. O Power BI é uma das ferramentas que pode ser utilizada para preparar, modelar, analisar e visualizar os dados.
+| Termo | Definição |
+|---|---|
+| **Dados** | Informações que podem ser coletadas, organizadas e analisadas. |
+| **Análise de Dados** | Processo de examinar dados para obter informações e insights. |
+| **Business Intelligence (BI)** | Uso de processos e tecnologias para coletar, gerenciar e analisar dados para apoiar decisões. |
+| **Insight** | Informação obtida a partir da análise dos dados que pode contribuir para a compreensão de uma situação. |
+| **Power BI** | Plataforma da Microsoft utilizada para conectar, preparar, modelar, visualizar e analisar dados. |
+| **Dashboard** | Painel utilizado para apresentar informações de forma visual e facilitar o acompanhamento dos dados. |
+| **Relatório** | Conjunto de informações e visualizações utilizadas para apresentar resultados de uma análise. |
+| **Visualização de Dados** | Representação visual das informações por meio de gráficos e outros elementos. |
+| **Modelagem de Dados** | Organização e estruturação dos dados para utilização em análises e relatórios. |
+| **Power Query** | Recurso utilizado para preparação e transformação de dados. |
+| **DAX** | Linguagem utilizada para criação de cálculos e expressões no Power BI. |
+| **Business Analytics** | Área relacionada ao uso de dados e análises para apoiar a compreensão e as decisões de negócio. |
 
-📖 Glossário
+---
 
-Conceito
+# ❓ Perguntas para Revisão
 
-Definição
+1. O que é Análise de Dados?
+2. Qual é a finalidade da Análise de Dados?
+3. O que significa Business Intelligence?
+4. Como o BI utiliza os dados para apoiar decisões?
+5. O que é Power BI?
+6. Quais são algumas das principais etapas de utilização do Power BI?
+7. Qual é a relação entre Análise de Dados e Business Intelligence?
+8. Como o Power BI pode auxiliar na análise de dados?
+9. Qual é a importância da preparação e transformação dos dados?
+10. Qual é a relação entre dados, análise, BI e Power BI?
 
-Análise de Dados
+---
 
-Processo de examinar, organizar e transformar dados para obter informações e insights.
+# 💡 O Que Aprendi
 
-Business Intelligence (BI)
+Durante o desenvolvimento deste projeto, pude compreender melhor os conceitos relacionados à **Análise de Dados, Business Intelligence e Power BI**.
 
-Conjunto de processos e tecnologias para coletar, gerenciar e analisar dados organizacionais em apoio ao negócio.
+Também aprendi que a qualidade da resposta obtida por uma ferramenta de IA depende, entre outros fatores, da forma como o prompt é elaborado.
 
-Power BI
+Ao comparar um prompt genérico com um prompt estruturado, foi possível perceber a importância de:
 
-Solução da Microsoft utilizada para conectar, preparar, modelar, analisar e visualizar dados.
+- Definir o objetivo da pergunta;
+- Informar o nível de conhecimento do usuário;
+- Especificar os tópicos desejados;
+- Solicitar uma estrutura para a resposta;
+- Utilizar as fontes disponíveis como base;
+- Fazer ajustes nos prompts de acordo com os resultados obtidos.
 
-Dashboard
+Além do conhecimento técnico, o projeto contribuiu para desenvolver habilidades de **pesquisa, organização de informações, pensamento crítico e engenharia de prompts**.
 
-Painel utilizado para apresentar informações e indicadores de forma visual.
+---
 
-Modelagem de Dados
+# 🛠️ Prompts Reutilizáveis
 
-Organização dos dados e seus relacionamentos para possibilitar análises e criação de relatórios.
+Os prompts abaixo podem ser utilizados posteriormente para continuar os estudos.
 
-Visualização de Dados
+## Prompt para estudar um conceito
 
-Representação visual das informações por meio de gráficos, tabelas e outros elementos.
+> Com base exclusivamente nas fontes deste notebook, explique o conceito de [TEMA] para uma estudante iniciante em Análise de Dados. Utilize linguagem simples, apresente os principais pontos e inclua um exemplo prático quando houver suporte nas fontes.
 
-Power Query
+---
 
-Ferramenta utilizada para preparar, transformar e organizar dados.
+## Prompt para criar resumo
 
-DAX
+> Com base exclusivamente nas fontes deste notebook, crie um resumo sobre [TEMA]. Organize o conteúdo em tópicos, destaque os conceitos principais e não inclua informações que não sejam sustentadas pelas fontes.
 
-Linguagem utilizada para criar cálculos e medidas no Power BI.
+---
 
-Insight
+## Prompt para comparação
 
-Informação obtida a partir da análise dos dados que pode contribuir para a compreensão do negócio.
+> Com base nas fontes disponíveis, compare [CONCEITO 1] e [CONCEITO 2]. Apresente as diferenças e relações entre eles em uma tabela simples. Não acrescente informações que não estejam sustentadas pelas fontes.
 
-📝 Questões de Revisão
+---
 
-O que é Análise de Dados e qual é sua finalidade?
+## Prompt para revisão
 
-O que significa Business Intelligence?
+> Com base exclusivamente nas fontes deste notebook, crie 10 perguntas de revisão sobre [TEMA]. Não mostre as respostas inicialmente. Depois que eu responder, corrija minhas respostas com base nas fontes e explique os erros.
 
-Qual é a relação entre Análise de Dados e BI?
+---
 
-O que é Power BI?
+## Prompt para aprofundamento
 
-Quais são os principais componentes do ecossistema Power BI?
+> Com base exclusivamente nas fontes deste notebook, identifique quais conceitos relacionados a [TEMA] eu deveria estudar em seguida. Organize os assuntos do mais básico para o mais avançado e explique brevemente a importância de cada um.
 
-Qual é a função do Power BI Desktop?
+---
 
-Para que serve o Power Query?
+# 🚀 Próximos Passos
 
-Para que serve a linguagem DAX?
+Como continuidade dos estudos, pretendo aprofundar meus conhecimentos na área de Dados, seguindo uma evolução gradual:
 
-Qual é a função do Serviço do Power BI?
+- Excel;
+- Power BI;
+- SQL;
+- Python;
+- Análise de Dados;
+- Business Intelligence;
+- Projetos práticos para portfólio.
 
-Como o Power BI pode ser utilizado para analisar dados de vendas?
+A ideia é continuar desenvolvendo projetos práticos e utilizar essas ferramentas para construir um portfólio voltado à área de **Dados e BI**.
 
-💡 O que aprendi
+---
 
-O desenvolvimento deste projeto me permitiu compreender melhor os conceitos fundamentais de Análise de Dados, Business Intelligence e Power BI, além de praticar o uso da Inteligência Artificial como ferramenta de aprendizagem.
+## 👩‍💻 Sobre o Projeto
 
-Também percebi a importância de elaborar prompts claros, fornecer contexto, definir objetivos e avaliar criticamente as respostas geradas pela IA.
+**Projeto:** Miniguia de Análise de Dados e Business Intelligence
 
-A atividade reforçou a importância da organização das fontes e da verificação das informações durante o processo de aprendizagem.
+**Desafio:** DIO — NotebookLM
 
-🔄 Prompts reutilizáveis
+**Tema:** Análise de Dados e Business Intelligence
 
-Para resumo e organização
+**Ferramenta principal:** NotebookLM
 
-"Com base exclusivamente nas fontes deste notebook, crie um mapa de conhecimentos sobre Análise de Dados e Business Intelligence. Organize os conceitos do mais básico ao mais avançado e explique brevemente a relação entre eles."
-
-Para revisão
-
-"Com base exclusivamente nas fontes deste notebook, crie 10 perguntas de revisão sobre Análise de Dados, Business Intelligence e Power BI. Não apresente as respostas inicialmente. Depois que eu responder, corrija minhas respostas utilizando somente as informações presentes nas fontes."
-
-Para comparação
-
-"Com base exclusivamente nas fontes deste notebook, compare Análise de Dados, Business Intelligence e Power BI. Organize a resposta em uma tabela contendo: conceito, objetivo, principais atividades ou recursos, aplicação e relação com os outros conceitos. Não acrescente informações que não estejam sustentadas pelas fontes."
-
-Para aprofundamento
-
-"Com base exclusivamente nas fontes deste notebook, explique o Power BI para uma estudante iniciante em Análise de Dados. Organize a resposta em: conceito, finalidade, principais recursos, etapas de utilização e exemplo prático. Indique as fontes utilizadas para cada parte da resposta."
-
-🚀 Próximos passos
-
-Continuar meus estudos em Excel, Power BI, SQL, Python e outras ferramentas relacionadas à área de Dados, buscando transformar os conhecimentos adquiridos em novos projetos para meu portfólio.
+**Objetivo:** Utilizar fontes selecionadas e engenharia de prompts para construir um material de estudo estruturado sobre conceitos introdutórios de Dados, BI e Power BI.
